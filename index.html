@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Project-1</title>
+</head>
+<body>
+    <header id="header-id" class="header-section">
+        <div class="header-logo">
+            <img src="images/RMZ-logo.png" alt="logo">
+        </div>
+        <div class="header-right">
+            <div class="header-top">
+                <div class="form-container">
+                    <form action="search">
+                        <input type="search" name="search1" id="search-id" placeholder="Наименование продукции, Стандарты... ">
+                        <button class="btn-search">
+                            <svg class="icon2">
+                                <use xlink:href="icons/icons-sprite.svg#search"></use>
+                            </svg>
+                        </button>  
+                    </form>
+                </div>
+                <ul>
+                    <li>
+                        <a href="tel:+375234061250">
+                            <svg class="icon2">
+                                <use xlink:href="icons/icons-sprite.svg#phone"></use>
+                            </svg>+375234061250</a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg class="icon2">
+                                <use xlink:href="icons/icons-sprite.svg#email"></use>
+                            </svg>info@rmz.by</a>
+                    </li>
+                </ul>
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li>
+                        <a href="">Покупателю</a>
+                    </li>
+                    <li>
+                        <a href="">ТПС</a>
+                    </li>
+                    <li>
+                        <a href="">Инфоцентр</a>
+                    </li>
+                    <li>
+                        <a href="">Контакты</a>
+                    </li>
+                    <li>
+                        <a href="#history">О нас</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mobile-menu">
+            <svg class="menu-btn">
+                <use xlink:href="icons/icons-open-close.svg#open-btn"></use>
+            </svg>  
+            <nav class="left-side-navigation">
+                <div class="left-side-navigation-btn">
+                    <svg class="close-btn">
+                        <use xlink:href="icons/icons-open-close.svg#close-btn"></use>
+                    </svg>
+                </div>
+                <div class="left-side-title">
+                    <h2>ОАО "РМЗ"</h2>
+                </div>
+                <ul class="l-s-n">
+                    <li><a href="">Продукция</a></li>
+                    <li><a href="">ТВС</a></li>
+                    <li><a href="">Новости</a></li>
+                    <li><a href="">Награды</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="photo-gallery">
+        <a name="history"></a>
+        <div class="container-slider">
+            <div class="slider-section">
+                <div class="slider-line">
+                    <img src="images/slides/page_151_102.jpg" alt="slide_1">
+                    <img src="images/slides/page_151_111.jpg" alt="slide_2">
+                    <img src="images/slides/page_151_113.jpg" alt="slide_3">
+                    <img src="images/slides/page_155_44.jpg" alt="slide_4">
+                    <img src="images/slides/page_155_48.jpg" alt="slide_5">
+                    <img src="images/slides/page_155_55.jpg" alt="slide_6">
+                    <img src="images/slides/page_157_154.jpg" alt="slide_7">
+                    <img src="images/slides/page_157_210.jpg" alt="slide_8">
+                    <img src="images/slides/page_159_dsc04666.jpg" alt="slide_9">
+                    <img src="images/slides/page_159_dsc_8340.jpg" alt="slide_10">
+                </div>
+            </div> 
+            <button class="slider-prev">
+                <svg class="icon1">
+                    <use xlink:href="icons/icons-sprite.svg#prev"></use>
+                </svg>
+            </button>
+            <button class="slider-next">
+                <svg class="icon1">
+                    <use xlink:href="icons/icons-sprite.svg#next1"></use>
+                </svg>
+            </button>   
+        </div>
+        <div class="ret">
+            <span>ОАО "Речицкий метизный завод"</span> <br> один из первых в металлургической промышленности Беларуси основан в 1912 году как изготовитель гвоздильно-проволочной продукции. <br> С 2006 года ОАО "Речицкий метизный завод" входит в состав холдинга "Белорусская металлургическая компания". Завод является лидером по ассортименту специальных гвоздей, что позволяет присутствовать на рынке практически всех европейских стран. 
+        </div>
+    </section>
+    <section class="catalogue">
+        <div class="separator"></div>
+        <h2>Продукция</h2>
+        <div class="catalog-container">
+            <div class="card-catalog">
+                <div class="card-title">Болты</div>
+                <div class="card-text">металлическое крепежное изделие, состоящее из шляпки и цилиндрического стержня с наружной резьбой, применяемое для фиксации детали в одной точке. </div>
+                <div class="card-logo-button">
+                    <div class="cat-logo">
+                        <svg class="icon1">
+                            <use xlink:href="icons/icons-sprite.svg#bolt"></use>
+                        </svg>
+                    </div>
+                    <a href="#popup" class="pop-btn">
+                        <div class="btn-catalog">ПОДРОБНЕЕ</div>
+                    </a>
+                </div>
+            </div>
+            <div class="card-catalog">
+                <div class="card-title">Гвозди</div>
+                <div class="card-text">крепёжное изделие, метиз в виде стержня с головкой и острым концом. По форме стержень может быть цилиндрическим, параллелепипедным, конусовидным или пирамидальным.</div>
+                <div class="card-logo-button">
+                    <div class="cat-logo">
+                        <svg class="icon1">
+                            <use xlink:href="icons/icons-sprite.svg#nail"></use>
+                        </svg>
+                    </div>
+                    <a href="#popup2" class="pop-btn">
+                        <div class="btn-catalog">ПОДРОБНЕЕ</div>
+                    </a>
+                </div>
+            </div>
+            <div class="card-catalog">
+                <div class="card-title">Винты</div>
+                <div class="card-text">Винт – крепёжное изделие для соединения деталей, одна из которых может быть с внутренней резьбой.</div>
+                <div class="card-logo-button">
+                    <div class="cat-logo">
+                        <svg class="icon1">
+                            <use xlink:href="icons/icons-sprite.svg#vint"></use>
+                        </svg>
+                    </div>
+                    <a href="#popup2" class="pop-btn">
+                        <div class="btn-catalog">ПОДРОБНЕЕ</div>
+                    </a>
+                </div>
+            </div>
+            <div class="card-catalog">
+                <div class="card-title">Саморезы</div>
+                <div class="card-text">Саморез представляет собой стальной стержень с самонарезающей резьбой и имеет острый или со сверлом наконечник.</div>
+                <div class="card-logo-button">
+                    <div class="cat-logo">
+                        <svg class="icon1">
+                            <use xlink:href="icons/icons-sprite.svg#screw"></use>
+                        </svg>
+                    </div>
+                    <a href="#popup2" class="pop-btn">
+                        <div class="btn-catalog">ПОДРОБНЕЕ</div>
+                    </a>
+                </div>
+            </div>
+            <div class="card-catalog">
+                <div class="card-title">Гайки</div>
+                <div class="card-text">Гайка — крепёжное изделие с резьбовым отверстием, образующее разборное соединение с помощью винта, болта или шпильки.</div>
+                <div class="card-logo-button">
+                    <div class="cat-logo">
+                        <svg class="icon1">
+                            <use xlink:href="icons/icons-sprite.svg#nut"></use>
+                        </svg>
+                    </div>
+                    <a href="#popup2" class="pop-btn">
+                        <div class="btn-catalog">ПОДРОБНЕЕ</div>
+                    </a>
+                </div>
+            </div>
+            <div class="card-catalog yellow">
+                <div class="card-title">Просмотр</div>
+                <div class="card-text">всего ассортимента производимой продукциеи ОАО "РМЗ"</div>
+                <div class="card-logo-button">
+                    <div class="cat-logo">
+                        <svg class="icon1">
+                            <use xlink:href="icons/icons-sprite.svg#catalog"></use>
+                        </svg>
+                    </div>
+                    <button class="cat-btn blue">Перейти в каталог</button>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <section class="net">        
+        <div class="wrapper">
+            <div class="separator"></div>
+            <h2>Товаропроводящая сеть</h2>
+            <div class="conteiner">
+                <div class="card">
+                    <div class="number">
+                        <img src="images/logo/rmz-verb.JPG" alt="rmz-Verb-logo">
+                    </div>
+                    <div class="title">RMZ Vertriebsgesellschaft</div>
+                    <div class="email-net"> 
+                        <a href="rmz.at" title="Перейти на сайт партнера">rmz.at</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="number">
+                        <img src="images/logo/faster.jpg" alt="faster-logo">
+                    </div>
+                    <div class="title">Fasteel Expert srl.</div>
+                    <div class="email-net"> 
+                        <a href="www.fasteel.ro" title="Перейти на сайт партнера">www.fasteel.ro</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="number">
+                        <img src="images/logo/dism.png" alt="dis-logo">
+                    </div>
+                    <div class="title">Dismas trading s.r.l</div>
+                    <div class="email-net"> 
+                        <a href="www.fasteel.ro" title="Перейти на сайт партнера">www.dismastrading.com</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="number">
+                        <img src="images/logo/mash.JPG" alt="mash-logo">
+                    </div>
+                    <div class="title">ООО ''Машкрепеж''</div>
+                    <div class="email-net"> 
+                        <a href="www.fasteel.ro" title="Перейти на сайт партнера">www.rusbolt.ru</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="number">
+                        <img src="images/logo/mtk.jpg" alt="mtk-logo">
+                    </div>
+                    <div class="title">ООО ''МТК ФР''</div>
+                    <div class="email-net"> 
+                        <a href="www.fasteel.ro" title="Перейти на сайт партнера">www.mtk-fortuna.ru</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="number">
+                        <img src="images/logo/mt.jpeg" alt="mt-logo">
+                    </div>
+                    <div class="title">ООО ''Стройметиз''</div>
+                    <div class="email-net"> 
+                        <a href="www.fasteel.ro" title="Перейти на сайт партнера">smetiz.ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news-section">
+        <div class="separator"></div>
+        <h2>НОВОСТИ</h2>
+        <div class="news">
+            <div class="date-news"><span>16</span> декабря 2022</div>
+            <div class="title-news">
+                <a href="" title="Открыть новость подробнее">Гомельское областное управление Госпромнадзора информирует</a>
+            </div>
+            <div class="teaser-news">
+                На производстве ОАО «Речицкий метизный завод» специалистом Гомельского областного управления Госпромнадзора проведено техническое диагностирование мостового крана
+            </div>
+        </div>
+        <div class="news">
+            <div class="date-news"><span>07</span> декабря 2022</div>
+            <div class="title-news">
+                <a href="" title="Открыть новость подробнее">Информация Гомельского областного управления Госпромнадзора</a>
+            </div>
+            <div class="teaser-news">
+                Чрезвычайные происшествия на котельных малой мощности в 2022 году
+            </div>
+        </div>
+        <div class="news">
+            <div class="date-news"><span>28</span> ноября 2022</div>
+            <div class="title-news">
+                <a href="" title="Открыть новость подробнее">Неделя нулевого травматизма 21.11-25.11</a>
+            </div>
+            <div class="teaser-news">
+                С 21 по 25 ноября 2022 года в целях профилактики производственного травматизма на Речицком метизном заводе проводилась Неделя нулевого травматизма.
+            </div>
+        </div>
+        <div class="news">
+            <div class="date-news"><span>12</span> октября 2022</div>
+            <div class="title-news">
+                <a href="" title="Открыть новость подробнее">Металл-Экспо 2022</a>
+            </div>
+            <div class="teaser-news">
+                Речицкий метизный завод примет участие в 28-й Международной промышленной выставке «Металл-Экспо», которая пройдет с 08 по 11 ноября в ЦВК «Экспоцентр», г.Москва (РФ)
+            </div>
+        </div>
+    </section>
+    <section class="section-awards">
+        <div class="separator"></div>
+        <h2>НАГРАДЫ</h2>
+        <div class="card-slide visible">
+            <div class="card-image">
+                <img src="images/awards/awards1.jpg" alt="award">
+            </div>
+            <div class="card-info">
+                <h2>Конкурс "Лучшие товары <br> Республики Беларусь на рынке РФ</h2>
+            </div>
+        </div>
+        <div class="card-slide">
+            <div class="card-image">
+                <img src="images/awards/awards2.jpg" alt="award">
+            </div>
+            <div class="card-info">
+                <h2>Лауреат премии правительства <br> Республики Беларусь за достижения <br> в области качества</h2>
+            </div>
+        </div>
+        <div class="card-slide">
+            <div class="card-image">
+                <img src="images/awards/awards3.jpg" alt="award">
+            </div>
+            <div class="card-info">
+                <h2>Лауреат конкурса <br> "Лучшие товары Республики Беларусь</h2>
+            </div>
+        </div>
+        <div class="card-slide">
+            <div class="card-image">
+                <img src="images/awards/awards4.jpg" alt="award">
+            </div>
+            <div class="card-info">
+                <h2>Лучший экспортер 2020</h2>
+            </div>
+        </div>
+        <div class="card-slide">
+            <div class="card-image">
+                <img src="images/awards/awards5.jpg" alt="award">
+            </div>
+            <div class="card-info">
+                <h2>"Профессиональный Олипм-2020"</h2>
+            </div>
+        </div>
+        <div class="card-slide">
+            <div class="card-image">
+                <img src="images/awards/awards6.jpg" alt="award">
+            </div>
+            <div class="card-info">
+                <h2>Лучший экспортер 2019 года</h2>
+            </div>
+        </div>
+        <div class="buttons-crd-slide">
+            <button class="btn-prev"> 
+                <svg class="icon1">
+                    <use xlink:href="icons/icons-sprite.svg#prev"></use>
+                </svg>
+            </button>
+            <button class="btn-next">
+                <svg class="icon1">
+                    <use xlink:href="icons/icons-sprite.svg#next1"></use>
+                </svg>
+            </button>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-contаiner">
+            <div class="footer-title">
+                <h2>Речицкий метизный завод</h2>
+                <div class="footer-logo">
+                    <img src="images/RMZ-logo.png" alt="logo">
+                </div>
+            </div>
+            <div class="footer-contacts">
+                <h2>Контакты</h2>
+                <p><span>Адрес:</span> 247500, Республика Беларусь, <br> Гомельская обл.,  г. Речица, <br> ул. Фрунзе, 2 </p>
+                <p><span>Телефон / факс:</span> +375 (2340) 6-12-60 </p>
+                <p><span>Email:</span> <a href="">info@rmz.by</a></p>
+            </div>
+            <div class="footer-maps">
+                <h2>Мы на карте</h2> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.9835017534597!2d30.422502793429313!3d52.36928601607366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d43078e3f6b2c1%3A0xd0de9105831da51!2z0J7QkNCeINCg0LXRh9C40YbQutC40Lkg0LzQtdGC0LjQt9C90YvQuSDQt9Cw0LLQvtC0!5e0!3m2!1sru!2sby!4v1671033521247!5m2!1sru!2sby" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="footer-social">
+                <h2>Социальные сети</h2>
+                <div class="footer-social-link">
+                        <div class="footer-link-icon">
+                            <a href="">
+                                <svg class="icon">
+                                    <use xlink:href="icons/icons-sprite.svg#insta"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="footer-link-icon">
+                            <a href="">
+                                <svg class="icon">
+                                    <use xlink:href="icons/icons-sprite.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="footer-link-icon">
+                            <a href="">
+                                <svg class="icon">
+                                    <use xlink:href="icons/icons-sprite.svg#fb"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="footer-link-icon">
+                            <a href="">
+                                <svg class="icon">
+                                    <use xlink:href="icons/icons-sprite.svg#network"></use>
+                                </svg>
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p>Неофициальный сайт Речицкого метизного завода 2022</p>
+        </div>
+    </footer>
+    <div class="popup" id="popup">
+        <div class="popup-body">
+            <a href="#header-id" class="popup-area"></a>
+            <div class="popup-content">
+                <a href="#header-id" class="popup-close">X</a>
+                <div class="popup-title">Болты с шестигранной головкой DIN EN ISO 4014</div>
+                <div class="popup-text">
+                    <div class="popup-img">
+                        <img src="images/drawingiso4014.jpg" alt="bolt">
+                    </div>
+                    <div class="popup-table">
+                        <table class="tbp">
+                            <tbody>
+                                <tr>
+                                    <td>d</td>
+                                    <td>М6</td>
+                                    <td>М8</td>
+                                    <td>М10</td>
+                                    <td>М12</td>
+                                    <td>М16</td>
+                                </tr>
+                                <tr>
+                                    <td>S</td>
+                                    <td>10</td>
+                                    <td>13</td>
+                                    <td>17</td>
+                                    <td>19</td>
+                                    <td>24</td>
+                                </tr>
+                                <tr>
+                                    <td>e min</td>
+                                    <td>10.89</td>
+                                    <td>14.2</td>
+                                    <td>18.72</td>
+                                    <td>20.88</td>
+                                    <td>26.17</td>
+                                </tr>
+                                <tr>
+                                    <td>b</td>
+                                    <td>18.0</td>
+                                    <td>22.0</td>
+                                    <td>26.0</td>
+                                    <td>30.0</td>
+                                    <td>38.0</td>
+                                </tr>
+                                <tr>
+                                    <td>k</td>
+                                    <td>4.0</td>
+                                    <td>5.3</td>
+                                    <td>6.4</td>
+                                    <td>7.5</td>
+                                    <td>10.0</td>
+                                </tr>
+                                <tr>
+                                    <td>L/d</td>
+                                    <td>М6</td>
+                                    <td>М8</td>
+                                    <td>М10</td>
+                                    <td>М12</td>
+                                    <td>М16</td>
+                                </tr>
+                                <tr>
+                                    <td>25</td>
+                                    <td>7,07</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>30</td>
+                                    <td>8,07</td>
+                                    <td>15,1</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>35</td>
+                                    <td>9,17</td>
+                                    <td>17,03</td>
+                                    <td>28,78</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>40</td>
+                                    <td>10,14</td>
+                                    <td>18,8</td>
+                                    <td>32,05</td>
+                                    <td>45,44</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="popup2">
+        <div class="popup-body">
+            <a href="#header-id" class="popup-area"></a>
+            <div class="popup-content">
+                <a href="#header-id" class="popup-close">X</a>
+                <div class="popup-title">Гвозди строительные ГОСТ 4028-63</div>
+                <div class="popup-text">
+                    <div class="popup-img">
+                        <img src="images/gvozd.jpg" alt="Pictures-Gvozd">
+                    </div>
+                    <div class="popup-table">
+                        <table class="tbp">
+                            <tbody>
+                                <tr>
+                                    <td>d</td>
+                                    <td>1,2</td>
+                                    <td>1,4</td>
+                                    <td>1,6</td>
+                                    <td>1,8</td>
+                                    <td>2,0</td>
+                                </tr>
+                                <tr>
+                                    <td>D min</td>
+                                    <td>2,4</td>
+                                    <td>2,8</td>
+                                    <td>3,2</td>
+                                    <td>3,5</td>
+                                    <td>4,0</td>
+                                </tr>
+                                <tr>
+                                    <td>h min</td>
+                                    <td>0,72</td>
+                                    <td>0.84</td>
+                                    <td>0,96</td>
+                                    <td>1,08</td>
+                                    <td>1,20</td>
+                                </tr>
+                                <tr>
+                                    <td>L/d</td>
+                                    <td>1,2</td>
+                                    <td>1,4</td>
+                                    <td>1,6</td>
+                                    <td>1,8</td>
+                                    <td>2,0</td>
+                                </tr>
+                                <tr>
+                                    <td>16</td>
+                                    <td>0.147</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>20</td>
+                                    <td>0.183</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>25</td>
+                                    <td>0.219</td>
+                                    <td>0.302</td>
+                                    <td>0.397</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>32</td>
+                                    <td></td>
+                                    <td>0.385</td>
+                                    <td>0.633</td>
+                                    <td>0.967</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
